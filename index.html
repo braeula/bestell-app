@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lieferdienst</title>
+    <link rel="stylesheet" href="./styles/standard.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./styles/assets.css">
+    <script src="./scripts/db.js"></script>
+    <script src="./scripts/templates.js"></script>
+    <script src="script.js"></script>
+
+</head>
+
+<body onload="render()">
+    <header>
+        <img src="./assets/logo/Bestell App- Logo.svg" alt="">
+        <div class="burger_menu">
+            <div class="border"></div>
+            <div class="border"></div>
+            <div class="border"></div>
+        </div>
+    </header>
+    <div class="total_content">
+        <div class="content">
+            <img class="main_img" src="./assets/img/noodles.jpg" alt="">
+            <div class="titlebox">
+                <div class="icon">
+                    <img src="./assets/logo/noodle_box.png" alt="">
+                </div>
+                <h1>Paradise Noodles</h1>
+                <div class="rating">
+                    Bewertung (4,3 von 5 Sternen)
+                </div>
+            </div>
+            <div class="navbar">
+                <a class="category" href="#mains">
+                    Hauptgerichte
+                </a>
+                <a class="category" href="#sides">
+                    Beilagen
+                </a>
+            </div>
+            <div class="section_title">
+                <img src="./assets/img/italian-dishes.jpg" alt="" class="title_img">
+                <h3>Hauptgerichte</h3>
+            </div>
+
+            <div class="menu" id="mains">
+                <div class="dishes">
+                    <div class="dish_info">
+                        <div class="dish_title">
+                            <h4>Pizza Krabben</h4>
+                        </div>
+                        <span>mit Krabben und Peperoni</span>
+                        <div class="price">9,50€</div>
+                    </div>
+                    <div class="add_button">
+                        <h1>+</h1>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section_title">
+                <img src="./assets/img/sides.jpg" alt="" class="title_img">
+                <h3>Beilagen</h3>
+            </div>
+
+            <div class="menu" id="sides">
+                <div class="dishes">
+                    <div class="dish_info">
+                        <div class="dish_title">
+                            <h4>Pizza Krabben</h4>
+                        </div>
+                        <span>mit Krabben und Peperoni</span>
+                        <div class="price">9,50€</div>
+                    </div>
+                    <div class="add_button">
+                        <h1>+</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="basket_container">
+            <div class="basket">
+                <div class="basket_title">
+                    <h1>Warenkorb</h1>
+                </div>
+                <div class="items" id="items">
+                    <!-- <div class="item">
+                        <h4>Pizza</h4>
+                        <div class="amount">
+                            <div class="pl_min_button">-</div>
+                            <div class="number">x</div>
+                            <div class="pl_min_button">+</div>
+                            <div class="sum">€</div>
+                            <div class="delete">
+                                <img src="./assets/img/mulleimer.png" alt="">
+                            </div>
+                        </div>
+                    </div> -->
+                </div>
+                <div class="costs" id="costs">
+                    <!-- <div class="subposition">
+                        <span>Zwischensumme</span>
+                        <span>€</span>
+                    </div>
+                    <div class="subposition">
+                        <span>Lieferkosten</span>
+                        <span>5,00€</span>
+                    </div>
+                    <div class="total">
+                        <h4>Gesamt</h4>
+                        <h4>€</h4>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

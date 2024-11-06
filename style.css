@@ -1,0 +1,151 @@
+header {
+    background-color: #FF8000;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+}
+
+header img {
+    height: 56px;
+}
+
+.burger_menu {
+    margin-bottom: 5px;
+}
+
+.border {
+    border-bottom: 3px solid white;
+    width: 24px;
+    margin-top: 5px;
+}
+
+.total_content {
+    display: flex;
+}
+
+.content {
+    width: calc(100% - 300px);
+    padding: 16px;
+}
+
+.titlebox {
+    padding-top: 16px;
+}
+
+.icon img {
+    height: 80px;
+    border-radius: 25px;
+    position: absolute;
+    top: 220px;
+    left: 48%;
+}
+
+.rating {
+    color: #FF8000;
+    padding-top: 16px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-top: 16px;
+    margin-left: -16px;
+    margin-right: -16px;
+    padding-left: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-color: #F7F6F1;
+    font-weight: 700;
+}
+
+.category {
+    color: #828789;
+}
+
+.category:hover {
+    color: #FF8000
+}
+
+.section_title {
+    padding-top: 16px;
+}
+
+.menu {
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.basket_container {
+    width: 300px;
+    box-shadow: -4px 4px 8px #d6dee0;
+    /* flex-grow: 1; */
+}
+
+.basket {  
+    position: sticky;
+    top: 0;
+    /* padding: 4px; */
+}
+
+.basket_title {
+    text-align: center;
+    padding: 16px;
+    border-bottom: 1px solid #dbdbd8;
+}
+
+.items {
+    padding: 16px;
+    /* border-bottom: 1px solid #dbdbd8; */
+}
+
+.costs {
+    border-top: 1px solid #dbdbd8;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.subposition {
+    display: flex;
+    justify-content: space-between;
+}
+
+.total {
+    display: flex;
+    justify-content: space-between;
+}
+
+.amount {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 8px;
+    align-items: center;
+}
+
+.pl_min_button {
+    color: #FF8000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 32px;
+    max-height: 32px;
+    font-size: 32px;
+}
+
+.pl_min_button:hover {
+    border: 2px solid #FF8000;
+    cursor: pointer;
+    border-radius: 16px;
+}
+
+.delete img{
+    width: 24px;
+}
+
+.delete img:hover{
+    cursor: pointer;
+}
